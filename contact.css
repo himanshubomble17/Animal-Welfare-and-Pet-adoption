@@ -1,0 +1,92 @@
+
+      @import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+      #form-cont {
+        margin-top: 70px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border: 2px solid #461c3b;
+        border-radius: 25px;
+        width: 90%;
+        height: 85vh;
+        justify-content: center;
+        justify-items: center;
+      }
+      #form-cont div {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      #form-cont div h2 {
+        font-family: "Pangolin", cursive;
+        color: rgb(36, 36, 36);
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .col-xs-12 #contact-us {
+        display: block;
+        justify-items: center;
+      }
+      #contact-us input {
+        width: 60%;
+        height: 45px;
+        margin-top: 20px;
+        padding: 1px 10px;
+        margin-left: 21%;
+        border: none;
+        border-bottom: 3px solid #461c3b;
+      }
+      input:focus {
+        outline: none;
+        border-bottom: 3px solid #461c3b;
+      }
+      ::placeholder {
+        margin-left: 20px;
+        font-family: "Roboto", sans-serif;
+      }
+      textarea {
+        height: 120px;
+        padding: 10px 10px;
+        width: 60%;
+        margin-left: 21%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border: 2px solid #411b37;;
+      }
+      textarea:-ms-input-placeholder:-moz-placeholder::placeholder {
+        margin: 30px;
+      }
+      textarea:focus {
+        border: 2px solid #d8a9cc;;
+        outline: none;
+      }
+
+      a {
+        text-decoration: none;
+        border: none;
+        border-bottom: none !important;
+        width: 150px;
+        height: 40px;
+        margin-left: 40%;
+        background: #d8a9cc;;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .forms-in button:hover {
+        opacity: 0.7;
+      }
+      .hide {
+        display: none;
+      }
+      .col-lg-6 {
+        height: 100vh;
+        width: 100vw;
+      }
+      #loginimg {
+        width: 400px;
+        height: 400px;
+        margin-left: 25%;
+        margin-top: 20%;
+      }
+    

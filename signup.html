@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>REGISTERATION</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="signup.css">
+
+  </head>
+  <body>
+    <div class="container-fluid row">
+      <div class="col-lg-6 col-xs-12">
+        <div class="forms-out">
+          <div class="forms-in">
+            <div id="registration-page" class="hide">
+              <button id="show-login">Sign In</button>
+              <h3>Sign Up</h3>
+              Email <br />
+              <input type="email" id="registration-email" /><br />
+              Confirm Email <br />
+              <input
+                type="email"
+                id="registration-reemail"
+                autocomplete="disable"
+              /><br />
+              Password <br />
+              <input type="password" id="registration-password" /><br />
+              <center><button id="register">Sign Up</button></center>
+            </div>
+
+            <div id="login-page">
+              <button id="show-register">Sign Up</button>
+              <h3>Sign In</h3>
+              Email <br />
+              <input type="email" id="login-email" /><br />
+              Password <br />
+              <input type="password" id="login-password" /><br />
+              <p id="forgot-password">Forgot Password</p>
+              <center><button id="login">Sign In</button></center>
+            </div>
+
+            <div ahref="index.html" id="homepage" class="hide">
+              <button id="signout">Sign Out</button>
+              <h3>Logged In</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-xs-12 d-none d-sm-block" style="background-color:#d8a9cc">
+        <img src="img/login.png" alt="login" id="loginimg">
+      </div>
+    </div>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+   
+  </body>
+</html>
